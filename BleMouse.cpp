@@ -87,7 +87,7 @@ void BleMouse::click(uint8_t b)
   move(0,0,0,0);
 }
 
-void BleMouse::move(signed char x, signed char y, signed char wheel, signed char hWheel)
+void BleMouse::move(signed char x, signed char y, float wheel, signed char hWheel)
 {
   if (this->isConnected())
   {
